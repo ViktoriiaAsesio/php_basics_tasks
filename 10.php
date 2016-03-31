@@ -4,18 +4,20 @@
  * в диапазон чисел от 1 до 5 (включительно).</p>
  */
 include '9.php';
-   // echo (integer)($day);
     switch ($day){
-    case 0:
-        echo "Неизвестный день";
-        break;
-    case ($day >=1 and $day <=5 ):
-        echo "Это рабочий день";
-        break;
-    case ($day ==6 or $day ==7 ):
-        echo "Это выходной день";
-        break;
-    default:
-        echo "Неизвестный день";
-        break;        
+        case 1:
+            echo "Это рабочий день";
+            break;
+        case 2:
+            echo "Это рабочий день";
+            break;
+        case 3:
+            echo "Это рабочий день";
+            break;
+        case 4:
+            echo "Это рабочий день";
+            break;
+        case 5:
+            echo "Это рабочий день";
+            break;
 }
